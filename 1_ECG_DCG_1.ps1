@@ -121,4 +121,4 @@ Write-Output $skippedFilesText
 Write-Output $skippedFilesText | Out-File -FilePath $logFileName -Append
 
 # To prevent PowerShell from closing immediately
-# pause
+pause
